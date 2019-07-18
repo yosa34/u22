@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/hello', function () {
+    print("<h1>Hallo World!</h1>");
+    return null;
 });
